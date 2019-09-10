@@ -3,7 +3,7 @@ import { graphql} from 'gatsby'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Hero from "../components/reuse/Hero"
-import Heading from "../components/reuse/heading"
+import Helmet from "react-helmet"
 import "../../src/components/layout.css"
 import Dualinfo from '../components/reuse/dualinfo'
 import Team from "../components/reuse/team"
@@ -15,12 +15,13 @@ const IndexPage = ({data}) => (
     <SEO title="Home" />
   <Hero 
     src = {data.img.childImageSharp.fluid}
-    title = "Nishit Patel"
-    subtitle = "hello world!"
+    title = "Get up to 50% Off New Collection"
+    subtitle = ""
+    btntext="Shop Now"
     heroclass = "h-background"
   />
   <Cards products={data.products}/>
-  <Dualinfo title="About Page"/>
+  <Dualinfo title="Terms and condition"/>
   
   </Layout>
 )
@@ -36,6 +37,7 @@ export const query = graphql `
     products: allContentfulProducts{
       edges{
         node{
+          id
           title
           price
           image{

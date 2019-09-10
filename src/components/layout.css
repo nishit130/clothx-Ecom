@@ -1,19 +1,13 @@
 .theme-bg{
-  background-color: #45CE30;
+  background-color:lightcoral;
 }
 .h-background{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-
-}
-.heading{
-  background-color: #487EB0;
-}
-.dualinfo{
-  background-color: #487EB0;
+  padding-left: 10vw;
+  background-attachment: fixed;
 }
 .about-cover{
   min-height: 40vh;
@@ -21,4 +15,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.contact{
+  margin-bottom: 10vh;
+  padding-bottom: 20%;
 }

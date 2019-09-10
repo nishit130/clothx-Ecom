@@ -3,9 +3,9 @@ require('dotenv').config({path: `.env.${process.env.NODE_ENV}`})
 
 module.exports = {
   siteMetadata: {
-    title: `hello I am Nishit Patel`,
-    description: `Hello`,
-    author: `@gatsbyjs`,
+    title: `Clothx | Shopping website`,
+    description: `clothes shopping site`,
+    author: `@nis130`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -43,7 +43,15 @@ module.exports = {
         apiKey: process.env.SNIPCART_KEY,
         autopop: true,
 			}
-		},
+    },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Droid Sans', 'Droid Serif']
+        }
+      }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

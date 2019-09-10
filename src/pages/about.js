@@ -2,8 +2,6 @@ import React from "react"
 import { graphql} from 'gatsby'
 import Layout from "../components/layout"
 import Dualinfo from '../components/reuse/dualinfo'
-import Team from "../components/reuse/team"
-import Heading from "../components/reuse/heading"
 import Hero from "../components/reuse/Hero"
 
 const about = ({data}) => (
@@ -13,10 +11,9 @@ const about = ({data}) => (
             title = "About Page"
             subtitle = ""
             heroclass = "about-cover"
+            btntext = "Read in Github"
         />
         <Dualinfo title="About Page"/>
-        <Heading heading="My Team"/>
-        <Team/>
     </Layout>
 )
 export const query = graphql`{

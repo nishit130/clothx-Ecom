@@ -1,7 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-
 import Navbar from "./reuse/Navbar"
 import Footer from "./reuse/Footer"
 import "./bootstrap.min.css"

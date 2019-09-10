@@ -10,18 +10,28 @@ export default class Navbar extends Component {
       id : 1,
       name : 'Home',
       url : '/',
+      class: 'nav-link text-white'
     },
     {
       id : 2,
       name : 'About',
       url : '/about',
+      class: 'nav-link text-white'
     },
     {
         id : 3,
       name : 'Contact',
       url : '/contact',
+      class: 'nav-link text-white'
 
-    }]
+    },
+    {
+      id: 4,
+      name: 'Cart',
+      url: '/',
+      class: 'nav-link text-white snipcart-checkout'
+    }
+  ]
   }
   myToggler = () =>{
     if(this.state.navbarState)
@@ -46,12 +56,12 @@ export default class Navbar extends Component {
             <h2>Clothx</h2>
           </div>
          </Link> 
-         <div className="navbar-toggler bg-transparent" type="button" onClick={this.myToggler}><span className="btn btn-transparent"><FaBars/></span></div>
+         <a href="#" className="navbar-toggler theme-bg" type="button" onClick={this.myToggler}><span><FaBars/></span></a>
         <div className= {this.state.navbarClass}>
         <ul className="navbar-nav ml-auto mr-5">
         {this.state.navitem.map(item =>{ 
         return(
-          <li key={item.id} className="nav-item"><Link className="nav-link text-white" to= {item.url}>{item.name}</Link></li>
+          <li key={item.id} className="nav-item"><Link className={item.class} to= {item.url}>{item.name}</Link></li>
 
         )})}
          </ul>

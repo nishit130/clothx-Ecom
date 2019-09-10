@@ -19,7 +19,7 @@ export default class cards extends Component {
                      return(
                          <div className="container" key={node.id}>
                             <div className="row">
-                            <div className="col-auto">
+                            <div className="col-auto mr-5 ml-5">
                             <Img fixed={node.image.fixed}/>
                             <div className="row">
                                 <div className="col-auto">
@@ -38,7 +38,7 @@ export default class cards extends Component {
                                 </div>
                             </div>
                             </div>
-                            <div className="col-auto">
+                            <div className="col-auto mr-5 ml-5">
                                     <Img fixed={node.image.fixed}/>
                                     <div className="row">
                                         <div className="col-auto">
@@ -51,9 +51,7 @@ export default class cards extends Component {
                                         data-item-id={node.id}
                                         data-item-name={node.title}
                                         data-item-price={node.price}
-                                        data-item-url="https://www.google.com"
-                                        
-                                        >Add to cart</button>
+                                        data-item-url="https://www.google.com">Add to cart</button>
                                         </div>
                                     </div>
                             </div>

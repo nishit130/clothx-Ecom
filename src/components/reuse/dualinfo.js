@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 export default function dualinfo({title}) {
     return (
-    <div className="dualinfo">
+    <div className="theme-bg">
         <div className="container">
             <Heading heading={title}/>
             <div className="row">
@@ -14,22 +14,8 @@ export default function dualinfo({title}) {
                     </p>
                 </div>
                 <div className="col-sm-4">
-                <form>
-                    <div className="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"></input>
-                        <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
-                    <div className="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password"></input>
-                    </div>
-                    <div className="form-group form-check">
-                        <input type="checkbox" className="form-check-input" id="exampleCheck1"></input>
-                        <label className="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="submit" className="btn btn-secondary">Submit</button>
-                </form>
+                
+                
                 </div>
             </div>
         </div>
