@@ -5,7 +5,15 @@
     <img alt="clothx" src="../src/img/screenshot.png" width="100" />
   </a>
 </p>
+
 This is Ecommerce website made using GAtsbyjs , Contentful , Reacts , netlify and Snipcart.
+
+# Feature 
+
+one click theme color change by navigating to src/css/layout.css and changing the ```bg-theme``` class
+
+
+
 ## 🚀 Quick start
 
 1.  **Clone This Repositry**
@@ -74,5 +82,5 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://clothx.netlify.com/)
 
