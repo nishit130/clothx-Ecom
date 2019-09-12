@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="">
-    <img alt="clothx" src="https://clothx.netlify.com/" width="100" />
+    <img alt="clothx" src="../src/img/screenshot.png" width="100" />
   </a>
 </p>
 This is Ecommerce website made using GAtsbyjs , Contentful , Reacts , netlify and Snipcart.

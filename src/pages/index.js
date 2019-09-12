@@ -6,7 +6,6 @@ import Hero from "../components/reuse/Hero"
 import Helmet from "react-helmet"
 import "../../src/components/layout.css"
 import Dualinfo from '../components/reuse/dualinfo'
-import Team from "../components/reuse/team"
 import Cards from '../components/reuse/cards'
 
 

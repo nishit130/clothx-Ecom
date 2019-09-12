@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Link } from "gatsby"
-import logo from "../../images/logo.png"
 import {FaBars} from "react-icons/fa"
 export default class Navbar extends Component {
   state = {

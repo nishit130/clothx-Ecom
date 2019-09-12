@@ -12,14 +12,14 @@ export default class cards extends Component {
 }
     render() {        
         return (
-            <div>
+            <div className="container-fluid">
                 <Heading heading="Clothes"/>
                 {
                     this.state.products.map(({node}) =>{
                      return(
                          <div className="container" key={node.id}>
                             <div className="row">
-                            <div className="col-auto mr-5 ml-5">
+                            <div className="col-lg-6">
                             <Img fixed={node.image.fixed}/>
                             <div className="row">
                                 <div className="col-auto">
@@ -38,7 +38,7 @@ export default class cards extends Component {
                                 </div>
                             </div>
                             </div>
-                            <div className="col-auto mr-5 ml-5">
+                            <div className="col-lg-6">
                                     <Img fixed={node.image.fixed}/>
                                     <div className="row">
                                         <div className="col-auto">
