@@ -1,10 +1,6 @@
 # clothx-Ecom
 
-<p align="center">
-  <a href="">
-    <img alt="clothx" src="../src/img/screenshot.png" width="100" />
-  </a>
-</p>
+![](./src/images/Screenshot.png)
 
 This is Ecommerce website made using GAtsbyjs , Contentful , Reacts , netlify and Snipcart.
 
